@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    min-height:100vh;
+    
+
+}
+img{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.header-left{
+    flex:.4 0 0;
+    padding:3rem;
+    color:white;
+    background:linear-gradient(rgb(17,20,24),rgb(17,20,24));
+}
+.text{
+    font-size:1.3rem;
+    text-transform: capitalize;
+}
+.name{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    margin-top:1rem;
+}
+.header-right{
+    flex:4 0 0;
+    background:linear-gradient(rgba(47,49,49,0.9),rgba(28,20,26,0.8)),url("../img/desk2.png")center/cover fixed no-repeat;
+    padding:3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+
+}
+.title{
+    margin:1rem 0;
+    text-transform: capitalize;
+    font-size: 4.6rem;
+    font-weight: 600;
+}
+.welcome{
+    font-weight: 500;
+    font-size:2rem;
+}
+.title-text{
+    font-size:1.3rem;
+    text-transform: capitalize;
+
+}
+.btn{
+    border:2px solid rgb(32,201,151);
+    padding:.5rem 2.5rem;
+    color:rgb(32,201,151);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    border-radius: 50em;
+    margin-top:1.5rem;
+}
